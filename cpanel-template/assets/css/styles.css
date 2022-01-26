@@ -9,10 +9,10 @@
   --body-background-color: #202028;
   --border-bottom-color: rgba(255, 255, 255, 0.05);
   --transparent-button-color: rgba(255, 255, 255, 0.1);
-  --font-size-small: 1.4rem;
-  --font-size-normal: 1.6rem;
-  --font-size-medium: 2rem;
-  --font-size-large: 2.4rem;
+  --font-size-small: 1.8rem;
+  --font-size-normal: 2.2rem;
+  --font-size-medium: 2.6rem;
+  --font-size-large: 3rem;
   --font-family: "Josefin Sans", sans-serif;
   --margin-small: 1rem;
   --margin-medium: 1.5rem;
@@ -74,7 +74,7 @@ button {
 }
 
 i {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-normal);
   line-height: 0;
   margin-bottom: 0.3rem;
 }
@@ -126,7 +126,7 @@ i {
 }
 
 .nav-mobile .list {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .logo {
@@ -139,11 +139,40 @@ i {
   margin-left: auto;
   background-color: var(--accent-color);
   border-radius: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icon-btn {
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.icon-btn:hover {
+  background-color: royalblue;
+}
+
+.menu-toggle-open {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.theme-toggle-btn {
+  border-radius: 0;
+}
+
+.user-account-icon {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.icon-separator,
+.icon-separator-toggler {
+  width: 1px;
+  background-color: var(--light-color);
+  display: inline-block;
+  height: 2rem;
 }
 
 .theme-dark-icon {
@@ -258,7 +287,7 @@ i {
 }
 
 .card-header small {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #7e8299;
 }
 
@@ -460,6 +489,15 @@ i {
     display: none !important;
   }
 
+  .icon-separator-toggler {
+    display: none !important;
+  }
+
+  .theme-toggle-btn {
+    border-bottom-left-radius: 0.4rem;
+    border-top-left-radius: 0.4rem;
+  }
+
   .nav-mobile {
     width: initial;
     height: initial;
@@ -482,6 +520,7 @@ i {
 
   .nav-mobile .list-link {
     border-radius: 0.4rem;
+    padding-bottom: 5px;
   }
 
   .current,
@@ -522,6 +561,11 @@ i {
     background-color: #1ba190;
   }
 
+  .card-body-link:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+  }
+
   .card-group {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -546,6 +590,6 @@ i {
   }
 
   .footer .list-link:hover {
-    color: var(--accent-color);
+    color: var(--light-color);
   }
 }
