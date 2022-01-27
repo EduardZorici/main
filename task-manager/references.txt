@@ -1,0 +1,32 @@
+1. List (group of Tasks)
+
+tbl_list
+
+list_id (primary key)
+list_name
+list_description
+
+2. Tasks
+
+tbl_tasks
+
+task_id
+task_name
+task_description
+list_id
+task_priority
+task_status
+task_submitDate
+task_deadlineDate
+task_assignedBy
+task_assignedTo
+
+attachments
+
+3. Users
+
+tbl_users
+
+user_id (primary key)
+user_name
+user_department

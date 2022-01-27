@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+DirectoryIndex index.php index.html index.htm index2.html
+
+ErrorDocument 400 https://taskmanager.eduardzorici.com/error/400.php
+ErrorDocument 401 https://taskmanager.eduardzorici.com/error/401.php
+ErrorDocument 403 https://taskmanager.eduardzorici.com/error/403.php
+ErrorDocument 404 https://taskmanager.eduardzorici.com/error/404.php
+ErrorDocument 500 https://taskmanager.eduardzorici.com/error/500.php
+ErrorDocument 503 https://taskmanager.eduardzorici.com/error/503.php

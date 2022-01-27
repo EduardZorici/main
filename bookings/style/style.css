@@ -1,0 +1,373 @@
+/*RESET ALL DEFAULT PAGE STYLE SETTINGS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+div#main {
+    width: 850px;
+    height: 500px;
+    margin: auto;
+    background-color: #e4f2fc;
+    border-radius: 20px;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #286d94;
+}
+
+.header-container {
+    margin: 20px 0 0 0;
+}
+
+.h1-container {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.menu-container {}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #286d94;
+}
+
+.menu li {
+    width: 50%;
+    background-color: #1EA2CC;
+    margin: 0;
+}
+
+.menu li:first-child {
+    border-right: 1px solid #fff;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    background-color: #296d94;
+    font-weight: 900;
+}
+
+.options-container {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.options {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: calc(100% - 175px);
+    background-color: #1EA2CC;
+}
+
+
+.options li {
+    width: 50%;
+    background-color: #1EA2CC;
+    margin: 0;
+    height: 100%;
+
+}
+
+.options li:first-child {
+    border-right: 1px solid #fff;
+}
+
+.options li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 35px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.options li a:hover {
+    background-color: #296d94;
+    font-weight: 900;
+}
+
+.input-box {
+    font-family: 'Nunito', 'Arial', sans-serif;
+    width: 475px;
+    height: 72px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.input-container {
+    margin-bottom: 50px;
+}
+
+.check-booking-container,
+.new-booking-container {
+    height: calc(100% - 105px);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    border-radius: 8px;
+    background-color: #1ea2cc;
+    color: #fff;
+    border: 2px solid #286d94;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #286d94;
+    border-color: #000;
+}
+
+.success-pic {
+    margin-left: 20px;
+}
+
+.success-page-button {
+    margin-bottom: 60px;
+}
+
+.check-booking-form {
+    width: 100%;
+}
+
+.new-booking-form {
+    width: inherit;
+    height: calc(100%-105px);
+}
+
+.two-columns {
+    width: 100%;
+}
+
+.column {
+    width: 50%;
+    min-width: 400px;
+}
+
+.first-column {
+    float: left;
+}
+
+.second-column {
+    float: right;
+}
+
+.form-input-box {
+    font-family: 'Nunito', 'Arial', sans-serif;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+.form-input-container {
+    margin-bottom: 20px;
+}
+
+.price-container {
+    margin: 20px 0;
+}
+
+#pret-final {
+    font-weight: 900;
+    color: #C80101;
+}
+
+a.button {
+    position: relative;
+    top: 12px;
+}
+
+table.booking-display,
+table.booking-display td,
+table.booking-display th {
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table.booking-display td,
+table.booking-display th {
+    padding: 5px 10px;
+}
+
+.text-content {
+    margin: 5px 30px;
+}
+
+/* ---------lightbox css w3school--------- */
+
+.row > .column-lightbox {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-lightbox {
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    margin-bottom: -4px;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ---------end of lightbox rules--------- */
