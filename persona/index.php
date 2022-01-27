@@ -70,6 +70,7 @@ include('inc/page-start.php');
     <section class="welcome-message">
         <div class="container">
             <div class="independent-header-container">
+                <div class="round-image profile-image"><img src="./assets/images/profile-picture.jpg" alt="Profile picture" /></div>
                 <h2 class="independent-title">Eduard Zorici</h2>
             </div>
             <div class="card">
