@@ -153,10 +153,7 @@ include('inc/page-start.php');
                         <h2 class="title">
                             What are you waiting for? Get in touch with me!
                         </h2>
-                        <p class="card-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Reprehenderit magni, rem, recusandae ad aperiam quod reiciendis.
-                        </p>
+                        <?php include 'inc/quick-form.php'; ?>
                     </div>
                     <button class="list-link">
                         Send by PED<span class="star">*</span>!

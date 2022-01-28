@@ -78,7 +78,12 @@
     <section class="welcome-message">
       <div class="container">
         <div class="independent-header-container">
-          <div class="round-image profile-image"><img src="./assets/images/profile-picture.jpg" alt="Profile picture" /></div>
+          <div class="round-image profile-image">
+            <img
+              src="./assets/images/profile-picture.jpg"
+              alt="Profile picture"
+            />
+          </div>
           <h2 class="independent-title">Eduard Zorici</h2>
         </div>
         <div class="card">
@@ -163,18 +168,38 @@
               <h2 class="title">
                 What are you waiting for? Get in touch with me!
               </h2>
-              <p class="card-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit magni, rem, recusandae ad aperiam quod reiciendis.
-              </p>
             </div>
-            <button class="list-link">
-              Send by PED<span class="star">*</span>!
-            </button>
-            <small
-              ><span class="star">*</span>PED - Acronym for Pigeon Express
-              Delivery</small
-            >
+            <form action="" class="quick-homepage-form">
+              <input
+                required
+                type="text"
+                placeholder="Your Name*"
+                name="visitor_name"
+                id="visitor_name_input"
+              />
+              <input
+                required
+                type="email"
+                placeholder="Your Email Address*"
+                name="visitor_email"
+                id="visitor_email_input"
+              />
+              <textarea
+                type="message"
+                placeholder="Write me something nice"
+                name="visitor_message"
+                id="visitor_message_input"
+                rows="5"
+                cols="30"
+              ></textarea>
+              <button type="submit" class="list-link">
+                Send by PED<span class="star">*</span>!
+              </button>
+              <small
+                ><span class="star">*</span>PED - Acronym for Pigeon Express
+                Delivery</small
+              >
+            </form>
           </div>
         </div>
       </div>
