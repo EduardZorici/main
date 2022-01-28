@@ -155,11 +155,6 @@ include('inc/page-start.php');
                         </h2>
                         <?php include 'inc/quick-form.php'; ?>
                     </div>
-                    <button class="list-link">
-                        Send by PED<span class="star">*</span>!
-                    </button>
-                    <small><span class="star">*</span>PED - Acronym for Pigeon Express
-                        Delivery</small>
                 </div>
             </div>
         </div>
