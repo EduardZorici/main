@@ -5,6 +5,7 @@
   --light-color: #fff;
   --dark-color: #171721;
   --dark-color-lighter: #7e8299;
+  --dark-color-medium: #303240;
   --accent-color: #eb9800;
   --body-background-color: #202028;
   --border-bottom-color: rgba(255, 255, 255, 0.05);
@@ -25,6 +26,7 @@
   --light-color: #171721;
   --dark-color: #fff;
   --dark-color-lighter: #7e8299;
+  --dark-color-medium: #dcdde3;
   --body-background-color: #eef0f8;
   --border-bottom-color: rgba(23, 23, 23, 0.05);
   --transparent-button-color: var(--accent-color);
@@ -318,7 +320,7 @@ i {
 
 small {
   font-size: 1.6rem;
-  color: #7e8299;
+  color: var(--dark-color-lighter);
   line-height: 1.3 !important;
 }
 
@@ -336,6 +338,30 @@ small {
 }
 
 /* Management area */
+.quick-homepage-form {
+  padding: 2rem 1rem;
+}
+
+.quick-homepage-form input,
+.quick-homepage-form textarea {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid var(--dark-color-lighter);
+  border-radius: 0.4rem;
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  background-color: var(--dark-color-medium);
+  color: var(--light-color);
+}
+
+.quick-homepage-form textarea {
+  resize: none;
+}
+
+.quick-homepage-form button {
+  display: block;
+}
 
 .management-area {
   padding-block: 2.5rem;
