@@ -3,8 +3,8 @@
 
 $title = 'Eduard Zorici - Web Development Made Simple';
 $description = 'Web development portfolio - Eduard Zorici - Full-stack Web Developer';
-$page_type = 'homepage';
-$link = '';
+$page_type = 'article';
+$link = 'about.php';
 
 include('inc/config.php');
 include('inc/page-start.php');
@@ -16,7 +16,6 @@ include('inc/page-start.php');
         <img src="./assets/images/dash-orange-mid-res.jpg" alt="Dash" />
     </div>
     <!-- Header -->
-
     <?php include('inc/menu.php'); ?>
     <!-- Welcome-message -->
     <section class="welcome-message">
@@ -27,18 +26,12 @@ include('inc/page-start.php');
             </div>
             <div class="card">
                 <header class="card-header">
-                    <small>You are here because you may want to know more about me,
-                        then</small>
-                    <h2 class="title">Greetings!</h2>
+                    <small>Ioan Eduard Zorici &bull; 26 years old &bull; Web Developer &bull; Cluj-Napoca, Romania</small>
                 </header>
-                <div class="card-body d-grid">
-                    <div class="card-image">
-                        <img src="./assets/images/web-dev.svg" alt="Server Image" />
-                    </div>
+                <div class="card-body">
                     <div class="card-information">
                         <h1 class="title main-title">
-                            Web development, Design and Search Engine Optimization at your
-                            service!
+                            Here you can find more information about me!
                         </h1>
                         <p class="card-description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
@@ -47,8 +40,13 @@ include('inc/page-start.php');
                             ipsam corporis dolores consectetur neque minus quisquam rem
                             officia totam, possimus quia expedita dignissimos veniam
                             officiis, odio veritatis eius? Deleniti nisi reiciendis
-                            nesciunt!
-                        </p>
+                            nesciunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <br />
+                        <h2 class="title">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                        </h2>
+
+                        <p class="card-description"> Deserunt beatae natus unde omnis dolorem tenetur vel vero dolor accusantium esse, dolores optio hic repellat architecto, perspiciatis eius nemo aliquid cupiditate necessitatibus quidem laboriosam quas vitae. Autem quidem sit commodi animi aut. Neque ut rerum rem voluptate dolore. Porro, sit id. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatem velit molestias deleniti, sequi officia iure consequuntur similique cupiditate fuga voluptatum iste laboriosam blanditiis? Molestias numquam, quam architecto, possimus, rerum vitae commodi assumenda incidunt est consequatur doloribus. Saepe aliquam reiciendis fugiat beatae quam, dicta nisi ducimus quisquam, iure sit veniam repellat eaque.</p>
                     </div>
                 </div>
             </div>
@@ -63,32 +61,6 @@ include('inc/page-start.php');
                     <small>Satisfy your curiosity here.</small>
                 </header>
                 <div class="card-body">
-                    <a href="<?= URL; ?>" class="card-body-link">
-                        <i class="ri-award-fill"></i> My Skills
-                    </a>
-                    <a href="<?= URL; ?>" class="card-body-link">
-                        <i class="ri-book-open-line"></i> My Story
-                    </a>
-                    <a href="<?= URL; ?>" class="card-body-link">
-                        <i class="ri-dashboard-line"></i> My Projects
-                    </a>
-                    <a href="<?= URL; ?>" class="card-body-link">
-                        <i class="ri-user-search-line"></i> My Resume
-                    </a>
-                </div>
-            </div>
-            <div class="card-group d-grid">
-                <div class="card border-green">
-                    <div>
-                        <h2 class="title">Recent work I've done</h2>
-                        <p class="card-description">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Reprehenderit magni, rem, recusandae ad aperiam quod reiciendis.
-                        </p>
-                    </div>
-                    <button class="list-link">Take me to the Gallery!</button>
-                </div>
-                <div class="card border-yellow">
                     <div class="icon-title">
                         <div class="github-icon">
                             <img src="./assets/images/social-media/github-white-large.png" alt="Github Repository Link" />
@@ -96,8 +68,9 @@ include('inc/page-start.php');
                         <h2 class="title github-title">GitHub Repository</h2>
                     </div>
                     <a href="/" class="regular-link centered" target="_blank">Take me to GitHub!</a>
-                </div>
-                <div class="card border-orange">
+                    <br />
+                    <hr />
+                    <br />
                     <h2 class="title social-title full-width">
                         Find me on social media
                     </h2>
@@ -116,7 +89,39 @@ include('inc/page-start.php');
                         </a>
                     </div>
                 </div>
-                <div class="card border-pink">
+            </div>
+            <div class="d-grid">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-information">
+                            <h2 class="title">
+                            Recusandae at ipsam corporis dolores!
+                            </h2>
+                            <p class="card-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                                odio repellat velit aspernatur nisi porro unde amet quae autem,
+                                error, provident quidem minima perferendis sequi. Recusandae at
+                                ipsam corporis dolores consectetur neque minus quisquam rem
+                                officia totam, possimus quia expedita dignissimos veniam
+                                officiis, odio veritatis eius? Deleniti nisi reiciendis
+                                nesciunt!</p>
+                            <br />
+
+                            <h3 class="title">
+                                Lorem ipsum, dolor sit amet
+                            </h3>
+
+                            <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt beatae natus unde omnis dolorem tenetur vel vero dolor accusantium esse, dolores optio hic repellat architecto, perspiciatis eius nemo aliquid cupiditate necessitatibus quidem laboriosam quas vitae. Autem quidem sit commodi animi aut. Neque ut rerum rem voluptate dolore. Porro, sit id.</p>
+                            <br />
+                            <h3 class="title">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                            </h3>
+                            <p class="card-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At fugit alias distinctio ex, iste maxime soluta, vitae quaerat, neque nam ducimus nulla quod ipsam? Doloribus necessitatibus nemo cupiditate modi quasi minus quae atque voluptatum optio sit, corrupti in quas quidem, laboriosam numquam laborum, maxime ratione iure. Vero debitis soluta itaque!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
                     <div>
                         <h2 class="title">
                             What are you waiting for? Get in touch with me!
