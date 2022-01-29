@@ -4,7 +4,7 @@
 $title = 'Eduard Zorici - Web Development Made Simple';
 $description = 'Web development portfolio - Eduard Zorici - Full-stack Web Developer';
 $page_type = 'article';
-$link = 'about.php';
+$link = 'about';
 
 include('inc/config.php');
 include('inc/page-start.php');

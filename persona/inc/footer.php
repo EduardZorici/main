@@ -3,7 +3,7 @@
         <span class="copyright-information">&copy; Eduard Zorici 2022. All rights reserved.</span>
         <ul class="list">
             <li class="list-item">
-                <a href="<?= URL; ?>about.php" class="list-link">About</a>
+                <a href="<?= URL; ?>about" class="list-link">About</a>
             </li>
             <li class="list-item">
                 <a href="<?= URL; ?>" class="list-link">Contact</a>

@@ -7,7 +7,7 @@
                     <a href="<?= URL; ?>" class="list-link current">Home</a>
                 </li>
                 <li class="list-item">
-                    <a href="<?= URL; ?>about.php" class="list-link">About</a>
+                    <a href="<?= URL; ?>about" class="list-link">About</a>
                 </li>
                 <li class="list-item dropdown">
                     <button class="list-link dropdown-btn place-items-center">

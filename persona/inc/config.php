@@ -7,7 +7,7 @@ session_start();
 
 //PATH
 
-define('URL', 'https://eduardzorici.com/persona/');
+define('URL', 'https://www.eduardzorici.com/persona/');
 define('ASSETS', 'assets/');
 define('CSSPATH', 'css/');
 define('JSPATH', 'js/');

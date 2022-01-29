@@ -95,23 +95,23 @@ include('inc/page-start.php');
                         </div>
                         <h2 class="title github-title">GitHub Repository</h2>
                     </div>
-                    <a href="/" class="regular-link centered" target="_blank">Take me to GitHub!</a>
+                    <a href="<?= URL; ?>" class="regular-link centered" target="_blank">Take me to GitHub!</a>
                 </div>
                 <div class="card border-orange">
                     <h2 class="title social-title full-width">
                         Find me on social media
                     </h2>
                     <div class="icon-container">
-                        <a href="/" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/facebook-color-large.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/facebook-color-large.png" alt="Social Media Link" />
                             <p class="social-link-description">/eddy.zorici</p>
                         </a>
-                        <a href="/" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/insta.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/insta.png" alt="Social Media Link" />
                             <p class="social-link-description">/eduard.zorici</p>
                         </a>
-                        <a href="/" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/linkedin-color-large.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/linkedin-color-large.png" alt="Social Media Link" />
                             <p class="social-link-description">/eduardzz</p>
                         </a>
-                        <a href="/" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/yt.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/yt.png" alt="Social Media Link" />
                             <p class="social-link-description">Eduard Zorici</p>
                         </a>
                     </div>
