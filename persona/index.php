@@ -13,7 +13,7 @@ include('inc/page-start.php');
 <body>
     <!-- Floating-background-image -->
     <div class="floating-background-image">
-        <img src="./assets/images/dash-orange-mid-res.jpg" alt="Dash" />
+        <img src="<?= URL; ?>assets/images/dash-orange-mid-res.jpg" alt="Dash" />
     </div>
     <!-- Header -->
 
@@ -22,7 +22,7 @@ include('inc/page-start.php');
     <section class="welcome-message">
         <div class="container">
             <div class="independent-header-container">
-                <div class="round-image profile-image"><img src="./assets/images/profile-picture.jpg" alt="Profile picture" /></div>
+                <div class="round-image profile-image"><img src="<?= URL; ?>assets/images/profile-picture.jpg" alt="Profile picture" /></div>
                 <h2 class="independent-title">Eduard Zorici</h2>
             </div>
             <div class="card">
@@ -33,7 +33,7 @@ include('inc/page-start.php');
                 </header>
                 <div class="card-body d-grid">
                     <div class="card-image">
-                        <img src="./assets/images/web-dev.svg" alt="Server Image" />
+                        <img src="<?= URL; ?>assets/images/web-dev.svg" alt="Server Image" />
                     </div>
                     <div class="card-information">
                         <h1 class="title main-title">
@@ -91,7 +91,7 @@ include('inc/page-start.php');
                 <div class="card border-yellow">
                     <div class="icon-title">
                         <div class="github-icon">
-                            <img src="./assets/images/social-media/github-white-large.png" alt="Github Repository Link" />
+                            <img src="<?= URL; ?>assets/images/social-media/github-white-large.png" alt="Github Repository Link" />
                         </div>
                         <h2 class="title github-title">GitHub Repository</h2>
                     </div>
@@ -102,16 +102,16 @@ include('inc/page-start.php');
                         Find me on social media
                     </h2>
                     <div class="icon-container">
-                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/facebook-color-large.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="<?= URL; ?>assets/images/social-media/facebook-color-large.png" alt="Social Media Link" />
                             <p class="social-link-description">/eddy.zorici</p>
                         </a>
-                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/insta.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="<?= URL; ?>assets/images/social-media/insta.png" alt="Social Media Link" />
                             <p class="social-link-description">/eduard.zorici</p>
                         </a>
-                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/linkedin-color-large.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="<?= URL; ?>assets/images/social-media/linkedin-color-large.png" alt="Social Media Link" />
                             <p class="social-link-description">/eduardzz</p>
                         </a>
-                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="./assets/images/social-media/yt.png" alt="Social Media Link" />
+                        <a href="<?= URL; ?>" class="social-link" target="_blank"><img class="social-link-img" src="<?= URL; ?>assets/images/social-media/yt.png" alt="Social Media Link" />
                             <p class="social-link-description">Eduard Zorici</p>
                         </a>
                     </div>
