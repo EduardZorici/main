@@ -528,7 +528,8 @@ small {
   margin-bottom: var(--margin-medium);
 }
 
-.card-group .list-link {
+.card-group .list-link,
+.quick-homepage-form .list-link {
   background-color: var(--transparent-button-color);
   color: var(--color-light);
   margin-bottom: var(--margin-medium);
@@ -753,7 +754,8 @@ small {
     grid-row: 2/4;
   }
 
-  .card-group .list-link:hover {
+  .card-group .list-link:hover,
+  .quick-homepage-form .list-link:hover {
     background-color: var(--light-color);
     color: var(--dark-color);
   }
