@@ -9,10 +9,10 @@
                 <a href="<?= URL; ?>contact" class="list-link">Contact</a>
             </li>
             <li class="list-item">
-                <a href="<?= URL; ?>" class="list-link">Terms and conditions</a>
+                <a href="<?= URL; ?>terms-and-conditions" class="list-link">Terms and conditions</a>
             </li>
             <li class="list-item">
-                <a href="<?= URL; ?>" class="list-link">Privacy Policy</a>
+                <a href="<?= URL; ?>privacy-policy" class="list-link">Privacy Policy</a>
             </li>
         </ul>
     </div>
