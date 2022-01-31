@@ -19,11 +19,7 @@ include('inc/page-start.php');
     <?php include('inc/menu.php'); ?>
     <!-- Welcome-message -->
     <section class="welcome-message">
-        <div class="container">
-            <div class="independent-header-container">
-                <div class="round-image profile-image"><img src="./assets/images/profile-picture.jpg" alt="Profile picture" /></div>
-                <h2 class="independent-title">Eduard Zorici</h2>
-            </div>
+        <div class="container header-gap">
             <div class="card">
                 <header class="card-header">
                     <small>Ioan Eduard Zorici &bull; 26 years old &bull; Web Developer &bull; Cluj-Napoca, Romania</small>

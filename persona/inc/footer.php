@@ -6,7 +6,7 @@
                 <a href="<?= URL; ?>about" class="list-link">About</a>
             </li>
             <li class="list-item">
-                <a href="<?= URL; ?>" class="list-link">Contact</a>
+                <a href="<?= URL; ?>contact" class="list-link">Contact</a>
             </li>
             <li class="list-item">
                 <a href="<?= URL; ?>" class="list-link">Terms and conditions</a>

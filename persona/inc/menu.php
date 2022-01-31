@@ -26,7 +26,7 @@
                     </ul>
                 </li>
                 <li class="list-item">
-                    <a href="<?= URL; ?>" class="list-link">Contact me!</a>
+                    <a href="<?= URL; ?>contact" class="list-link">Contact me!</a>
                 </li>
             </ul>
             <button class="icon-btn menu-toggle-btn menu-toggle-close place-items-center">
