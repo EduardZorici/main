@@ -6,8 +6,7 @@ RewriteEngine on
 RewriteBase /
 
 RewriteCond %{SERVER_PORT} 80
-RewriteCond %{REQUEST_URI} persona
-RewriteRule ^(.*)$ https://www.eduardzorici.com/persona/$1 [R,L]
+RewriteRule ^(.*)$ https://www.eduardzorici.com/$1 [R,L]
 
 <IfModule mod_expires.c>
     ExpiresActive On 
@@ -32,15 +31,15 @@ ErrorDocument 404 https://eduardzorici.com/error/404.php
 ErrorDocument 500 https://eduardzorici.com/error/500.php
 ErrorDocument 503 https://eduardzorici.com/error/503.php
 
-RewriteRule ^index.html$ https://www.eduardzorici.com/persona/ [L,R=301]
-RewriteRule ^index.php$ https://www.eduardzorici.com/persona/ [L,R=301]
+RewriteRule ^index.html$ https://www.eduardzorici.com/ [L,R=301]
+RewriteRule ^index.php$ https://www.eduardzorici.com/ [L,R=301]
 
 #RewriteCond %{HTTP_HOST} !^www\.
 #RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 Options -Indexes
-#RewriteCond %{HTTP_HOST} ^eduardzorici.com/persona [NC]
-#RewriteRule ^(.*)$ https://eduardzorici.com/persona/$1 [L,R=301]
+#RewriteCond %{HTTP_HOST} ^eduardzorici.com [NC]
+#RewriteRule ^(.*)$ https://eduardzorici.com/$1 [L,R=301]
 
 #fine code for no extension and also php and html extension
 
